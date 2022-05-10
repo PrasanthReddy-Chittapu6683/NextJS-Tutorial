@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 const productDetail
     = () => {
         const router = useRouter();
-        const pId = router.query.productid
+        const pId = router.query.productId
         return (
             <h3> Product Details - {pId}
             </h3>
